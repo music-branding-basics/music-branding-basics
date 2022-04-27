@@ -41,7 +41,7 @@ export default function DocLayout({data: {mdx, allMdx}, pageContext: {next, prev
               </ol>
             </nav>
             <h3 className="text-primary font-semibold mb-3">Contribute to this article</h3>
-            <button className="block w-full rounded-lg text-center py-3 px-5 bg-primary text-white hover:bg-primary-dark active:bg-primary-darker transition-all">
+            <button component="a" href="https://github.com/music-branding-basics/music-branding-basics" target="_blank" className="block w-full rounded-lg text-center py-3 px-5 bg-primary text-white hover:bg-primary-dark active:bg-primary-darker transition-all">
               Contribute
             </button>
           </div>

@@ -145,7 +145,7 @@ export default function Layout({children, title, description, spacing}) {
                   </li>
                 </ul>
                 <div className="px-4 lg:pr-0">
-                  <Button primary large className="w-full">
+                  <Button component="a" href="https://github.com/music-branding-basics/music-branding-basics" target="_blank" primary large className="w-full">
                     Contribute
                   </Button>
                 </div>
