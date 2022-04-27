@@ -206,7 +206,7 @@ export default function CaseStudies({
                     <h3 className="mb-2 font-semibold">Industries</h3>
                     {[
                       'Finance',
-                      'Healtcare',
+                      'Healthcare',
                       'Entertainment',
                       'Automotive',
                       'Services',
