@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .prose iframe {
+    @apply mb-5;
+  }
+
+  .prose.case-study > * {
+    @apply max-w-3xl lg:max-w-2xl mx-auto;
+  }
+  .prose.case-study > :where(figure,h2,hr,.video-wrapper) {
+    @apply max-w-none lg:max-w-4xl  mx-auto;
+  }
+
+  .footnotes  ol,.footnotes li {
+    padding: 0;
+  }
+  .px-page {
+    @apply px-3 sm:px-4 md:px-6
+  }
+}
+
