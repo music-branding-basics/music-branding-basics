@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://mbb.education',
+    siteUrl: 'https://mbb.andreasilvano.com',
     title: `${process.env.NODE_ENV !== 'production' ? '[DEV] ' : ''}Music Branding Basics`,
     titleTemplate: `${
       process.env.NODE_ENV !== 'production' ? '[DEV]' : ''
